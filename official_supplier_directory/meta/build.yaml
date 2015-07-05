@@ -1,0 +1,16 @@
+build: {}
+dependencies: {}
+sources:
+    supplier:
+        description: Supplier Data
+        encoding: latin-1
+        file: SupplierData
+        filetype: csv
+        row_spec:
+            data_end_line: 6
+            data_start_line: 2
+            header_lines:
+            - 0
+        url: https://data.medicare.gov/views/bg9k-emty/files/RqHL3QuYQq01Eb_kWAUzA3Wime01Jtc1tfUTF7zVqDo?filename=Supplier_Revised_Flatfiles.zip&content_type=application%2Fzip%3B%20charset%3Dbinary
+        urlfiletype: zip
+views: {}
