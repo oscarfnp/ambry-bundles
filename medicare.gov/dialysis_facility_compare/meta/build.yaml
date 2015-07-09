@@ -1,0 +1,35 @@
+build:
+    requirements: {}
+dependencies: {}
+sources:
+    complete_QIP_data:
+        description: ESRD QIP - Complete QIP Data - Payment Year 2015
+        encoding: latin-1
+        file: PY2015 Complete QIP Data.csv
+        filetype: csv
+        row_spec:
+            header_lines:
+            - 0
+        url: https://data.medicare.gov/views/bg9k-emty/files/qUrdPCwgdv-H4tocW1m_6PtReuPSzyJHioinJ0_UkdI?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=DFCompare_Revised_FlatFiles.zip
+        urlfiletype: zip
+    dialysis_compare_facility:
+        description: Dialysis Facility Compare - Listing by Facility
+        encoding: latin-1
+        file: DFC_SOCRATA_FAC_DATA.csv
+        filetype: csv
+        row_spec:
+            header_lines:
+            - 0
+        url: https://data.medicare.gov/views/bg9k-emty/files/qUrdPCwgdv-H4tocW1m_6PtReuPSzyJHioinJ0_UkdI?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=DFCompare_Revised_FlatFiles.zip
+        urlfiletype: zip
+    dialysis_compare_state:
+        description: Dialysis Facility Compare - State
+        encoding: latin-1
+        file: DFC_SOCRATA_STATE_DATA.csv
+        filetype: csv
+        row_spec:
+            header_lines:
+            - 0
+        url: https://data.medicare.gov/views/bg9k-emty/files/qUrdPCwgdv-H4tocW1m_6PtReuPSzyJHioinJ0_UkdI?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=DFCompare_Revised_FlatFiles.zip
+        urlfiletype: zip
+views: {}

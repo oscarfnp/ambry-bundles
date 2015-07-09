@@ -1,0 +1,58 @@
+about:
+    access: restricted
+    footnote: null
+    grain: facility
+    groups: []
+    license: public
+    processed: null
+    rights: public
+    source: null
+    space: US
+    subject: null
+    summary: These are the official datasets used on the Medicare.gov Dialysis Facility
+        Compare Website provided by the Centers for Medicare & Medicaid Services.  These
+        data allow you to compare the quality of care provided in Medicare-certified
+        dialysis facilities nationwide.
+    tags: []
+    time: 2015
+    title: Dialysis Facility Compare datasets
+contact_bundle:
+    creator:
+        email: oscar.fnunezp@gmail.com
+        name: Oscar Nunez
+        org: Civic Knowledge
+        url: http://civicknowledge.com
+    maintainer: {}
+contact_source:
+    creator:
+        org: Medicare
+        url: http://medicare.gov
+    maintainer: {}
+external_documentation:
+    dataset:
+        description: Main webpage for the dataset.
+        source: null
+        title: Dialysis Facility Compare datasets
+        url: https://data.medicare.gov/data/dialysis-facility-compare
+    dialysis_compare_doc:
+        description: Data Dictionary for Quarterly Dialysis Facility Compare
+        source: null
+        title: Dialysis Facility Compare Data Dictionary
+        url: https://data.medicare.gov/views/bg9k-emty/files/Ad9rY8FMMgQ5SPq5pViWDDX93MQ4laSX5hJ50GPds2k?filename=Dialysis_flatfiles.pdf&content_type=application%2Fpdf%3B%20charset%3Dbinary
+identity:
+    bspace: null
+    btime: null
+    dataset: dialysis_facility_compare
+    id: dr0JhDj4ZI
+    revision: 1
+    source: medicare.gov
+    subset: null
+    type: null
+    variation: null
+    version: 0.0.1
+names:
+    fqname: medicare.gov-dialysis_facility_compare-0.0.1~dr0JhDj4ZI001
+    name: medicare.gov-dialysis_facility_compare
+    vid: dr0JhDj4ZI001
+    vname: medicare.gov-dialysis_facility_compare-0.0.1
+process: {}

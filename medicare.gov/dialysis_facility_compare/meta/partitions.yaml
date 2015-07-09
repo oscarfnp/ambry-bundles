@@ -1,0 +1,6 @@
+-   name: medicare.gov-dialysis_facility_compare-dialysis_compare_state
+    table: dialysis_compare_state
+-   name: medicare.gov-dialysis_facility_compare-dialysis_compare_facility
+    table: dialysis_compare_facility
+-   name: medicare.gov-dialysis_facility_compare-complete_qip_data
+    table: complete_qip_data
